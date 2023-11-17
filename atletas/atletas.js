@@ -40,7 +40,7 @@ btnSair.id = "btnSair"
 btnSair.innerText = 'Sair';
 btnSair.onclick = () => {
     sessionStorage.removeItem('auth');
-    window.location = '/';
+    window.location = '/P2DevWeb';
 };
 
 headerContainer.appendChild(headerText);
