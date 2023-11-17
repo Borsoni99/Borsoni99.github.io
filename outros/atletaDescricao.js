@@ -11,7 +11,7 @@ const altura = document.getElementById('altura');
 const posicao = document.getElementById('posicao');
 const btnVoltar = document.getElementById('btnVoltar');
 
-btnVoltar.onclick = () => window.location = '/atletas/atletas.html';
+btnVoltar.onclick = () => window.location = 'https://borsoni99.github.io/P2DevWeb/atletas/atletas.html';
 
 const pegar_coisas = async (caminho) => {
     const resposta = await fetch(caminho);

@@ -6,7 +6,7 @@ function submitForm() {
 
     if (inputMD5 == senhamd5) {
         sessionStorage.setItem('auth', 'autorizado');
-        document.location = "/atletas/atletas.html";
+        window.location = "https://borsoni99.github.io/P2DevWeb/atletas/atletas.html";
     } else {
         alert("senha incorreta!");
     }

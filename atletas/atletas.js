@@ -119,7 +119,7 @@ const handleClickBtns = (caminho) => {
 };
 
 const handleClickContainer = (atleta) => {
-    window.location = `/outros/atletaDescricao.html?id=${atleta.id}`;
+    window.location = `https://borsoni99.github.io/P2DevWeb/outros/atletaDescricao.html?id=${atleta.id}`;
 };
 
 const pegar_coisas = async (caminho) => {
