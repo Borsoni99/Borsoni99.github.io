@@ -1,6 +1,6 @@
 if (!sessionStorage.getItem('auth')){
     alert("Acesso não autorizado")
-    window.location = '/';
+    window.location = '/P2DevWeb';
 }
 
 const url = "https://botafogo-atletas.mange.li";
